@@ -2,7 +2,7 @@ site_name: Online Boutique
 site_description: Some description
 
 nav:
-  - Home: 'README.md'
+  - Home: 'index.md'
   - 'Advertising Service': 'src/adservice/README.md'
   - 'Cart Service': 'src/cartservice/README.md'
   - 'Checkout Service': 'src/checkoutservice/README.md'
