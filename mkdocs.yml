@@ -4,7 +4,7 @@ site_description: Some description
 nav:
   - Home: 'index.md'
   - 'Tutotials':
-    - 'Cloundshell Tutorial': cloundshell-tutorial.md
+    - 'Cloundshell Tutorial': cloudshell-tutorial.md
     - 'Deploy Stack': deploystack.md
     - 'Development Guide': development-guide.md 
     - 'Product Requirements': product-requirements.md
