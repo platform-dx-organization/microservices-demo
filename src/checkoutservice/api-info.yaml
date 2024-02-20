@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: "adservice"
-  description: "Advertising Services Api"
+  name: "checkoutservice"
+  description: "Checkout Services Api"
 spec:
   type: openapi
   lifecycle: production

@@ -8,7 +8,6 @@ metadata:
       title: java-fortify-test
       icon: dashboard
   annotations:
-    circleci.com/project-slug: github/platform-dx/test-fortify-java-488ec60
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug:  platform-dx-organization/microservices-demo
     sonarqube.org/project-key: "microservices-demo"
@@ -20,11 +19,11 @@ spec:
   owner: "platform-dx-organization"
   providesApis:
     - "adservice"
-    # - "cartservice"
-    # - "checkoutservice"
-    # - "currencyserviceservice"
-    # - "emailservice"
-    # - "paymentservice"
-    # - "productcatalogservice"
-    # - "recommendationservice"
-    # - "shippingservice"
+    - "cartservice"
+    - "checkoutservice"
+    - "currencyserviceservice"
+    - "emailservice"
+    - "paymentservice"
+    - "productcatalogservice"
+    - "recommendationservice"
+    - "shippingservice"
