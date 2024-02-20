@@ -2,16 +2,16 @@ site_name: Online Boutique
 site_description: Some description
 
 nav:
-  - Home: '../'
-  - 'Advertising Service': '/src/adservice/README.md'
-  - 'Advertising Service': '/src/cartservice/README.md'
-  - 'Advertising Service': '/src/checkoutservice/README.md'
-  - 'Advertising Service': '/src/currencyservice/README.md'
-  - 'Advertising Service': '/src/emailservice/README.md'
-  - 'Advertising Service': '/src/paymentservice/README.md'
-  - 'Advertising Service': '/src/productcatalogservice/README.md'
-  - 'Advertising Service': '/src/recommendationservice/README.md'
-  - 'Advertising Service': '/src/shippingservice/README.md'
+  - Home: './README.md'
+  - 'Advertising Service': './src/adservice/README.md'
+  - 'Advertising Service': './src/cartservice/README.md'
+  - 'Advertising Service': './src/checkoutservice/README.md'
+  - 'Advertising Service': './src/currencyservice/README.md'
+  - 'Advertising Service': './src/emailservice/README.md'
+  - 'Advertising Service': './src/paymentservice/README.md'
+  - 'Advertising Service': './src/productcatalogservice/README.md'
+  - 'Advertising Service': './src/recommendationservice/README.md'
+  - 'Advertising Service': './src/shippingservice/README.md'
 
 plugins:
   - techdocs-core
