@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "adservice"
+  description: "Advertising Service Api"
+spec:
+  type: openapi
+  lifecycle: production
+  owner:  "platform-dx-organization"
+  definition:
+    # $text: https://github.com/platform-dx/test-fortify-java-488ec60/blob/main/open-api.yaml
