@@ -3,6 +3,8 @@ kind: API
 metadata:
   name: "shippingservice"
   description: "Shipping Services Api"
+  tags:
+    - graphql
 spec:
   type: graphql
   lifecycle: production

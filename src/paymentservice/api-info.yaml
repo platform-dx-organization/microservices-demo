@@ -4,7 +4,7 @@ metadata:
   name: "paymentservice"
   description: "Payment Services Api"
   tags:
-    - OAS3
+    - oas3
 spec:
   type: openapi
   lifecycle: production

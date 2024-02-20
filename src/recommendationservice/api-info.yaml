@@ -4,7 +4,7 @@ metadata:
   name: "recommendationservice"
   description: "Recommendation Services Api"
   tags:
-    - AsyncAPI
+    - async
 spec:
   type: asyncapi
   lifecycle: production

@@ -4,7 +4,7 @@ metadata:
   name: "productcatalogservice"
   description: "Product Catalog Services Api"
   tags:
-    - AsyncAPI
+    - async
 spec:
   type: asyncapi
   lifecycle: production

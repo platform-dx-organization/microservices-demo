@@ -4,7 +4,7 @@ metadata:
   name: "cartservice"
   description: "Cart Services Api"
   tags:
-    - OAS2
+    - oas2
 spec:
   type: openapi
   lifecycle: production
