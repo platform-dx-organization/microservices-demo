@@ -4,22 +4,15 @@ site_description: Some description
 nav:
   - Home: 'index.md'
   - 'Tutotials':
-    - 'Cloundshell Tutorial': docs/cloundshell-tutorial.md
-    - 'Deploy Stack': docs/deploystack.md
-    - 'Development Guide': docs/development-guide.md 
-    - 'Product Requirements': docs/product-requirements.md
+    - 'Cloundshell Tutorial': cloundshell-tutorial.md
+    - 'Deploy Stack': deploystack.md
+    - 'Development Guide': development-guide.md 
+    - 'Product Requirements': product-requirements.md
     - 'Purpose': purpose.md
-  - 'Advertising Service': src/adservice/README.md
-  - 'Cart Service': src/cartservice/README.md
-  - 'Checkout Service': src/checkoutservice/README.md
-  - 'Currency Service': src/currencyservice/README.md
-  - 'Email Service': src/emailservice/README.md
-  - 'Payment Service': src/paymentservice/README.md
-  - 'Product Catalog Service': src/productcatalogservice/README.md
-  - 'Recommendation Service': src/recommendationservice/README.md
-  - 'Shipping Service': src/shippingservice/README.md
-
-theme: readthedocs
+  - 'Advertising Service': adservice.md
+  - 'Checkout Service': checkoutservice.md
+  - 'Product Catalog Service': productcatalogservice.md
+  - 'Shipping Service': shippingservice.md
 
 plugins:
   - techdocs-core
