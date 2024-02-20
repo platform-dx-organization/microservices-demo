@@ -19,5 +19,8 @@ nav:
   - 'Recommendation Service': src/recommendationservice/README.md
   - 'Shipping Service': src/shippingservice/README.md
 
+theme: readthedocs
+
 plugins:
   - techdocs-core
+  - search
