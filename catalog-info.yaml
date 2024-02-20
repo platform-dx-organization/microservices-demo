@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "microservices-demo"
+  description: "example of microservices relationship"
+  links:
+    - url: https://api-java-fortify-test-demob3.empcbr.thoughtworks-labs.net/swagger-ui.html
+      title: java-fortify-test
+      icon: dashboard
+  annotations:
+    circleci.com/project-slug: github/platform-dx/test-fortify-java-488ec60
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  platform-dx-organization/microservices-demo
+    sonarqube.org/project-key: "microservices-demo"
+    backstage.io/kubernetes-label-selector: "app=microservices-demo"
+    backstage.io/adr-location: docs/adrs/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "platform-dx-organization"
+  providesApis:
+    - "adservice"
+    # - "cartservice"
+    # - "checkoutservice"
+    # - "currencyserviceservice"
+    # - "emailservice"
+    # - "paymentservice"
+    # - "productcatalogservice"
+    # - "recommendationservice"
+    # - "shippingservice"
