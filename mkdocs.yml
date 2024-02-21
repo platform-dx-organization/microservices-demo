@@ -16,11 +16,11 @@ nav:
 
 theme:
   features:
-    - navigation.instant
+    # - navigation.instant
     - navigation.instant.prefetch
-    - navigation.instant.progress
+    # - navigation.instant.progress
     - navigation.tracking
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.tabs.sticky
     - navigation.path
     - toc.integrate
