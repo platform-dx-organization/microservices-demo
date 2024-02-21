@@ -14,15 +14,6 @@ nav:
   - 'Product Catalog Service': productcatalogservice.md
   - 'Shipping Service': shippingservice.md
 
-theme:
-  features:
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.path
-    - toc.integrate
-    - navigation.path
-
 plugins:
   - techdocs-core
   - search
