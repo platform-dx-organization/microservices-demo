@@ -13,6 +13,7 @@ metadata:
     sonarqube.org/project-key: "microservices-demo"
     backstage.io/kubernetes-label-selector: "app=microservices-demo"
     backstage.io/adr-location: docs/adrs/
+    roadiehq.com/backstage-pull-requests-default-filter: 'state:open'
 spec:
   type: system
   lifecycle: production
