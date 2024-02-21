@@ -4,8 +4,8 @@ metadata:
   name: "microservices-demo"
   description: "example of microservices relationship"
   links:
-    - url: https://api-java-fortify-test-demob3.empcbr.thoughtworks-labs.net/swagger-ui.html
-      title: java-fortify-test
+    - url: https://github.com/GoogleCloudPlatform/microservices-demo
+      title: GoogleCloudPlatform | microservices-demo
       icon: dashboard
   annotations:
     backstage.io/techdocs-ref: dir:.
