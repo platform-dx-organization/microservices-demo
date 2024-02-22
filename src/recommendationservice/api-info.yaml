@@ -8,7 +8,7 @@ metadata:
 spec:
   type: asyncapi
   lifecycle: production
-  owner:  "platform-dx-organization"
+  owner:  "online-boutique-corp"
   apiProvidedBy:
     -'microservices-demo'
   definition: |
